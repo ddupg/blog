@@ -96,7 +96,6 @@ ignore:
 theme: next
 
 # Deployment
-## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
   repo: https://github.com/ddupg/blog
@@ -119,8 +118,6 @@ custom_category_generator:
   per_page: 10
   order_by: -date
   custom_config:
-    English: 
-      layout: category_lite
     MySQL学习笔记:
       layout: index
 

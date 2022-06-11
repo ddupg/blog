@@ -98,7 +98,7 @@ theme: next
 # Deployment
 deploy:
   type: git
-  repo: https://github.com/ddupg/blog
+  repo: git@github.com:ddupg/blog.git 
   branch: gh-pages
 
 # index2 generator是否包含官方的hexo-generator-index，默认true（包含）
